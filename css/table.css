@@ -1,0 +1,29 @@
+*{
+	padding: 10;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h2{
+	font-size: 40px;
+}
+
+table{
+	letter-spacing: 1.2px;
+	color: red;
+}
+
+td{
+	text-align: center;
+}
+
+button{
+	border:none;
+	background: #d9d9d9;
+}
+
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
